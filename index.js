@@ -27,7 +27,8 @@ function greet(timeIn24) {
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(string) {
-  const greeting = document.querySelector("#greetings");
+  const greeting = document.querySelector("#greeting");
+  console.log(greeting);
   greeting.innerText = string;
 }
 
